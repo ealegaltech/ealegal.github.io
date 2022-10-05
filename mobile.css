@@ -11,9 +11,9 @@
   .container {
     max-height: none;
     margin: 2.5% 0 0 0;
-    display: flex;
+    /*display: flex;
     justify-content: flex-start;
-    align-items: center;
+    align-items: center;*/
   }
 
   .container, .container * {
