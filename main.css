@@ -7,6 +7,8 @@ body {
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  font-family: 'Open Sans', sans-serif;
+  -webkit-font-smoothing: subpixel-antialiased;
 }
 
 .lock-screen {/*stop scrolling*/
