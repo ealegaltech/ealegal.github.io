@@ -4,11 +4,12 @@ body {
   margin: 0;
   padding: 0;
   display: flex;
-  flex-direction: column;
+  /*flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: center;*/
   font-family: 'Open Sans', sans-serif;
   -webkit-font-smoothing: subpixel-antialiased;
+  color: gray;
 }
 
 .lock-screen {/*stop scrolling*/
@@ -28,9 +29,20 @@ body {
   max-height: 600px;
   display: flex;
 	flex-direction: column;
-	flex-wrap: wrap;
+	flex-wrap: no-wrap;
 	justify-content: center;
 	align-items: center;
 	align-content: center;
   font-size: calc(0.8vw + 0.8vh);
+}
+
+.logo {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  padding: 5%;
+}
+
+.item {
+  text-align: center;
 }
