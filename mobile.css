@@ -19,3 +19,7 @@
   .container, .container * {
     font-size: 0.95em;
   }
+
+  .logo {
+    width: 50%;
+  }
