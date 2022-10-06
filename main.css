@@ -37,10 +37,10 @@ body {
 }
 
 .logo {
-  width: 40%;
+  width: 35%;
   display: flex;
   justify-content: center;
-  padding: 5%;
+  padding: 3%;
 }
 
 .item {
